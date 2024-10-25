@@ -7,7 +7,7 @@ import {
   Outlet
 } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import Login from './componant/Login.JSX';
+import Login from './componant/Login';
 import Admin from './navbar/Admin';
 import User from './navbar/User';
 import AdminDashboard from './componant/AdminDashboard';
