@@ -7,7 +7,7 @@ const User = () => {
   const handleLogout = () => {
     localStorage.removeItem('role');
     navigate('/'); // Navigate to the root after logout
-    // window.location.reload(); // Refresh the app to apply the new role-based routes
+    window.location.reload(); // Refresh the app to apply the new role-based routes
   };
 
   return (
