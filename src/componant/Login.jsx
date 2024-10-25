@@ -13,7 +13,7 @@ const Login = () => {
 
     if (role) {
       localStorage.setItem('role', role);
-      navigate('/dashboard'); // Redirect to the root to trigger role-based rendering in App
+      navigate('/'); // Redirect to the root to trigger role-based rendering in App
       window.location.reload(); // Refresh the app to apply the new role-based routes
     }
   };
